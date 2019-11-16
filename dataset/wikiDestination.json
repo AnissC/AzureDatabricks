@@ -1,0 +1,17 @@
+{
+	"name": "wikiDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WikiDataDestination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "wikidatadaily"
+			}
+		}
+	}
+}

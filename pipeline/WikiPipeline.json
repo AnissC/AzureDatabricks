@@ -22,26 +22,26 @@
 						"requestMethod": "GET"
 					},
 					"sink": {
-						"type": "BinarySink",
+						"type": "JsonSink",
 						"storeSettings": {
 							"type": "AzureBlobStorageWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings",
+							"quoteAllText": true
 						}
 					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
-						"referenceName": "WikiFileREST",
-						"type": "DatasetReference",
-						"parameters": {
-							"dateTRT": "@pipeline().parameters.dateTRT",
-							"dateTRT-1": "@pipeline().parameters.dateTRT-1"
-						}
+						"referenceName": "wikiFileREST",
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "WikiDateDestination",
+						"referenceName": "wikiDestination",
 						"type": "DatasetReference"
 					}
 				]
