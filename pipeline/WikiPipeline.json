@@ -21,6 +21,12 @@
 						"requestInterval": "00.00:00:00.010",
 						"requestMethod": "GET"
 					},
+					"sink": {
+						"type": "BinarySink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						}
+					},
 					"enableStaging": false
 				},
 				"inputs": [
@@ -31,6 +37,12 @@
 							"dateTRT": "@pipeline().parameters.dateTRT",
 							"dateTRT-1": "@pipeline().parameters.dateTRT-1"
 						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "WikiDateDestination",
+						"type": "DatasetReference"
 					}
 				]
 			}
