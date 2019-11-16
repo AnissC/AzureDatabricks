@@ -1,5 +1,5 @@
 {
-	"name": "WikiSourceData",
+	"name": "WikiTargetData",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "DestinationContainer",
