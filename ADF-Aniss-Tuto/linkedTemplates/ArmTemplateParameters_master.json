@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-Aniss-Tuto"
+		},
+		"AzureDatabricks_accessToken": {
+			"value": ""
+		},
+		"DestinationContainer_connectionString": {
+			"value": ""
+		},
+		"WikiDataDestination_connectionString": {
+			"value": ""
+		},
+		"PublicDataset_sasUri": {
+			"value": ""
+		},
+		"WikiFileREST_properties_typeProperties_url": {
+			"value": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Albert_Einstein/daily/2015100100/2015103100"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
