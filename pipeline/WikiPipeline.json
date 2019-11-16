@@ -1,5 +1,5 @@
 {
-	"name": "CopyFileFromWiki",
+	"name": "WikiPipeline",
 	"properties": {
 		"activities": [
 			{
