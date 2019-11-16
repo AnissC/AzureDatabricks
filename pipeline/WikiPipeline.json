@@ -1,0 +1,7 @@
+{
+	"name": "WikiPipeline",
+	"properties": {
+		"description": "Get wiki file of pageview",
+		"annotations": []
+	}
+}
