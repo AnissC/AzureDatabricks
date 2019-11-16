@@ -1,0 +1,18 @@
+{
+	"name": "WikiSourceData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DestinationContainer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "wikiDataDaily"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
