@@ -1,0 +1,12 @@
+{
+	"name": "wikiFileREST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WikiFileREST",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
