@@ -1,0 +1,19 @@
+{
+	"name": "WikiTargetDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WikiDataDestination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "2019-11",
+				"folderPath": "2019",
+				"container": "wikidatadaily"
+			}
+		}
+	}
+}
