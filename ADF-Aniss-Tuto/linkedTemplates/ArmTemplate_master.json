@@ -25,7 +25,11 @@
 		},
 		"WikiFileREST_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Albert_Einstein/daily/2015100100/2015103100"
+			"defaultValue": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/"
+		},
+		"WikiSourceDS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -68,6 +72,9 @@
 					},
 					"WikiFileREST_properties_typeProperties_url": {
 						"value": "[parameters('WikiFileREST_properties_typeProperties_url')]"
+					},
+					"WikiSourceDS_properties_typeProperties_url": {
+						"value": "[parameters('WikiSourceDS_properties_typeProperties_url')]"
 					}
 				}
 			},
