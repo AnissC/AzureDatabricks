@@ -21,7 +21,7 @@
 			"value": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/"
 		},
 		"WikiSourceDS_properties_typeProperties_url": {
-			"value": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/"
+			"value": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/pageviews-20191101-000000.gz"
 		},
 		"containerUri": {
 			"value": ""
