@@ -29,7 +29,7 @@
 		},
 		"WikiSourceDS_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/pageviews-20191101-000000.gz"
+			"defaultValue": "http://dumps.wikimedia.org/other/pageviews/2019/2019-11/pageviews-20191101-000000.gz"
 		}
 	},
 	"variables": {
@@ -127,7 +127,7 @@
 								"type": "BinarySource",
 								"storeSettings": {
 									"type": "HttpReadSettings",
-									"requestMethod": "POST",
+									"requestMethod": "GET",
 									"requestTimeout": ""
 								}
 							},
