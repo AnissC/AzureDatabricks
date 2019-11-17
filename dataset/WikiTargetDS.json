@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "2019/2019-11",
-				"container": "wikidatadaily"
+				"container": "wikidatahourly"
 			}
 		}
 	}
