@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "03.02",
-				"container": "dwtemp"
+				"folderPath": "2019/2019-11",
+				"container": "wikidatadaily"
 			}
 		}
 	},
