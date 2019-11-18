@@ -12,10 +12,6 @@
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "2019/2019-11",
 				"container": "wikihourly"
-			},
-			"compression": {
-				"type": "gzip",
-				"level": "Fastest"
 			}
 		}
 	}
