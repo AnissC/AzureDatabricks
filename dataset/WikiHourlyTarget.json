@@ -1,0 +1,23 @@
+{
+	"name": "WikiHourlyTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WikiHourlyTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "2019/2019-11",
+				"container": "wikihourly"
+			},
+			"columnDelimiter": " ",
+			"compressionCodec": "gzip",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
