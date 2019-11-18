@@ -10,9 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "pageviews-20191101-000000.gz",
 				"folderPath": "2019/2019-11",
 				"container": "wikihourly"
+			},
+			"compression": {
+				"type": "gzip",
+				"level": "Fastest"
 			}
 		}
 	}
