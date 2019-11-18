@@ -2,13 +2,13 @@
 	"name": "WikiFileREST",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"description": "ds",
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/",
+			"url": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/pageviews-20191101-000000.gz ",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
-		},
-		"description": "ds"
+		}
 	}
 }
