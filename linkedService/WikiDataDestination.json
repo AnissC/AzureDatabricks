@@ -2,13 +2,15 @@
 	"name": "WikiDataDestination",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=anissdbtrainer;EndpointSuffix=core.windows.net;",
 			"typeProperties": {
 				"connectionString": "DefaultEndpointsProtocol=https;AccountName=anissdbtrainer;EndpointSuffix=core.windows.net;",
 				"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERi1BTklTUy1UVVRPX2M3NWQwY2IxLTVlYTUtNDlhNy1hMjcxLTFiYjNlZjMxOTQ5MyINCn0="
-			}
-		},
-		"annotations": []
+			},
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERi1BTklTUy1UVVRPX2E2ZjVlYWM3LWM4NTYtNDFiYS1iMmY5LWQ3NTJiODQ0MTQ3MiINCn0="
+		}
 	}
 }
