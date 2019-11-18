@@ -8,6 +8,7 @@
 			"url": "https://dumps.wikimedia.org/other/pageviews/2019/2019-11/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
-		}
+		},
+		"description": "ds"
 	}
 }
